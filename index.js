@@ -17,8 +17,12 @@ function dec(n) {
   return n -= 1
 }
 function makeInt(n) {
-  parseInt('n', 10)
+  parseInt('n')
   return n
+  parseInt('0x2328', 10)
+  return 0
+  parseInt('sldkjflksjf')
+  return 'NaN as appropriate'
 }
 
   it('assumes base 10', function() {
